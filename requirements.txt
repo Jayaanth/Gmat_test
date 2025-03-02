@@ -1,0 +1,7 @@
+streamlit
+transformers
+matplotlib
+huggingface_hub
+chromadb 
+sentence-transformers 
+plotly

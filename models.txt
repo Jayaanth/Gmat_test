@@ -1,0 +1,2 @@
+mistralai/Mistral-7B-Instruct-v0.3
+deepseek-ai/DeepSeek-R1-Distill-Qwen-32B

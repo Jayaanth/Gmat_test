@@ -1,0 +1,1677 @@
+{
+    "sections": [
+      {
+        "section": "2.1 Number properties",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "999962 − 42 = ?",
+            "template": "Algebraic manipulation with powers of 10",
+            "difficulty": "Medium",
+            "options": {
+              "A": "1010 − 8",
+              "B": "(10^5 − 8)^2",
+              "C": "10^4(10^5 − 8)",
+              "D": "10^5(10^4 − 8)",
+              "E": "10^5(10^5 − 8)"
+            },
+            "correct_answer": "E"
+          },
+          {
+            "question_number": 2,
+            "question_text": "If 5a is a factor of n!, and the greatest integer value of a is 6, what is the largest possible value of b such that 7b is a factor of the largest possible value of n!?",
+            "template": "Factorial prime factor counting",
+            "difficulty": "Hard",
+            "options": {
+              "A": "2",
+              "B": "3",
+              "C": "4",
+              "D": "5",
+              "E": "6"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 3,
+            "question_text": "If a = 0.999, b = (0.999)^2 and c = √0.999, which of the following is the correct order of a, b and c?",
+            "template": "Ordering of numbers (decimals and radicals)",
+            "difficulty": "Easy",
+            "options": {
+              "A": "a < b < c",
+              "B": "a < c < b",
+              "C": "b < c < a",
+              "D": "b < a < c",
+              "E": "c < a < b"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 4,
+            "question_text": "If p is the product of the reciprocals of integers from 150 to 250, inclusive, and q is the product of the reciprocals of integers from 150 to 251, inclusive, what is the value of (p⁻¹ + q⁻¹) in terms of p?",
+            "template": "Reciprocal product manipulation",
+            "difficulty": "Hard",
+            "options": {
+              "A": "p/(251)^2",
+              "B": "251 × 252 × p",
+              "C": "252p",
+              "D": "252/p",
+              "E": "251 × 252 × p^2"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 5,
+            "question_text": "If x is the sum of all integers from 51 to 100, inclusive, what is the value of x?",
+            "template": "Arithmetic series sum",
+            "difficulty": "Easy",
+            "options": {
+              "A": "3,624",
+              "B": "3,625",
+              "C": "3,675",
+              "D": "3,725",
+              "E": "3,775"
+            },
+            "correct_answer": "E"
+          },
+          {
+            "question_number": 6,
+            "question_text": "If x is the sum of the reciprocals of the consecutive integers from 51 to 60, inclusive and y is the sum of the reciprocals of the consecutive integers from 61 to 70, inclusive, which of the following is correct? I. 1/x > 6, II. 1/y > 7, III. 1/y > 1/x",
+            "template": "Inequalities with reciprocal sums",
+            "difficulty": "Medium",
+            "options": {
+              "A": "Only I",
+              "B": "Only II",
+              "C": "Only III",
+              "D": "Only II and III",
+              "E": "I, II and III"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 7,
+            "question_text": "A number 4p25q is divisible by 4 and 9; where p and q are the thousands and units digits, respectively. What is the minimum value of p/q?",
+            "template": "Divisibility constraints with digit variables",
+            "difficulty": "Medium",
+            "options": {
+              "A": "1/8",
+              "B": "1/7",
+              "C": "1/6",
+              "D": "2/5",
+              "E": "5/2"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 8,
+            "question_text": "If a and b are real numbers such that a percent of (a − 2b) when added to b percent of b equals 0, then which of the following statements must be true? I. a = b, II. a + b = 0, III. a − b = 1",
+            "template": "Percentage-based algebraic equation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Only I",
+              "B": "Only II",
+              "C": "Only III",
+              "D": "Only I and III",
+              "E": "Only II and III"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 9,
+            "question_text": "A set is such that if m is in the set, (m² + 3) is also in the set. If −1 is in the set, which of the following is also in the set? I. −2, II. 4, III. 19",
+            "template": "Set closure property",
+            "difficulty": "Medium",
+            "options": {
+              "A": "Only I",
+              "B": "Only II",
+              "C": "Only I and II",
+              "D": "Only II and III",
+              "E": "I, II and III"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 10,
+            "question_text": "A sequence t₁, t₂, t₃, …, tₙ is such that t₂ = 5 and tₙ₊₁ = 2tₙ − 1 for n ≥ 1, then what is the value of t₁₀ − t₉?",
+            "template": "Recurrence relation difference",
+            "difficulty": "Easy",
+            "options": {
+              "A": "29",
+              "B": "210 + 1",
+              "C": "1",
+              "D": "2",
+              "E": "4"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 11,
+            "question_text": "If m, n, p, and q are distinct positive integers, and all are greater than 1 such that m × n × p × q = 660, how many possible combinations of values exist for m, n, p, and q?",
+            "template": "Counting combinations of factors",
+            "difficulty": "Hard",
+            "options": {
+              "A": "Two",
+              "B": "Three",
+              "C": "Four",
+              "D": "Five",
+              "E": "Seven"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 12,
+            "question_text": "If x = 125 and y = 216, what is the value of (√(x^(2/3) + y^(2/3) + 2(xy)^(1/3)) + √(x^(2/3) + y^(2/3) − 2(xy)^(1/3)))?",
+            "template": "Simplification of nested radical expressions",
+            "difficulty": "Medium",
+            "options": {
+              "A": "0",
+              "B": "5",
+              "C": "6",
+              "D": "10",
+              "E": "12"
+            },
+            "correct_answer": "E"
+          },
+          {
+            "question_number": 13,
+            "question_text": "If m ≥ 0.9, which of the following is a possible value of (1/√m)?",
+            "template": "Function evaluation (inverse square root)",
+            "difficulty": "Easy",
+            "options": {
+              "A": "1.01",
+              "B": "1.12",
+              "C": "1.13",
+              "D": "1.35",
+              "E": "1.50"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 14,
+            "question_text": "Given that a and b are positive integers and a = b^(3/90), which of the following must be an integer? I. a^45, II. a^90, III. a^300",
+            "template": "Exponentiation and integer condition",
+            "difficulty": "Hard",
+            "options": {
+              "A": "Only I",
+              "B": "Only II",
+              "C": "Only III",
+              "D": "Only I and II",
+              "E": "I, II and III"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 15,
+            "question_text": "The addition operation shown below displays the sum of the two-digit positive integers XY and YX. If X, Y, and Z are different digits, what is the value of the integer Z?",
+            "template": "Digit reversal puzzle",
+            "difficulty": "Hard",
+            "options": {
+              "A": "8",
+              "B": "7",
+              "C": "2",
+              "D": "1",
+              "E": "0"
+            },
+            "correct_answer": "E"
+          },
+          {
+            "question_number": 16,
+            "question_text": "Suzy saves $20 per month. In each of the 30 months, she saves $20 more than she did in the previous month. What is the total amount she saved during the 30-month period?",
+            "template": "Arithmetic progression (savings accumulation)",
+            "difficulty": "Easy",
+            "options": {
+              "A": "$3,600",
+              "B": "$4,800",
+              "C": "$6,000",
+              "D": "$9,300",
+              "E": "$12,000"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 17,
+            "question_text": "If a sequence of numbers t₁, t₂, …, tₙ is such that t₁ = 0, t₂ = 2 and tₙ = tₙ₊₁ + 2tₙ₋₁ for n ≥ 1, what is the value of t₄?",
+            "template": "Recurrence relation evaluation",
+            "difficulty": "Medium",
+            "options": {
+              "A": "−2",
+              "B": "0",
+              "C": "4",
+              "D": "6",
+              "E": "8"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 18,
+            "question_text": "If n is an integer such that n > 9, which of the following could be the remainder when (2 + 2² + 2³ + … + 2ⁿ) is divided by 3?",
+            "template": "Modular arithmetic with exponential series",
+            "difficulty": "Medium",
+            "options": {
+              "A": "Only I",
+              "B": "Only II",
+              "C": "Only III",
+              "D": "Only I and III",
+              "E": "I, II and III"
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "2.2 Percents",
+        "questions": [
+          {
+            "question_number": 19,
+            "question_text": "A machine can be repaired for $1,200 and will last for one year, while a new machine would cost $2,800 and will last for two years. The average cost per year of the new machine is what percent greater than the cost of repairing the current machine?",
+            "template": "Comparison of annualized costs",
+            "difficulty": "Easy",
+            "options": {
+              "A": "7%",
+              "B": "14.28%",
+              "C": "16.67%",
+              "D": "18.83%",
+              "E": "20%"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 20,
+            "question_text": "An item is subject to a sales tax of 10 percent on the part of the price that is greater than $200. If a customer paid a sales tax of $10 on the item, what was the price of the item?",
+            "template": "Sales tax on threshold amount",
+            "difficulty": "Easy",
+            "options": {
+              "A": "$200",
+              "B": "$250",
+              "C": "$300",
+              "D": "$360",
+              "E": "$400"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 21,
+            "question_text": "Item A is subject to a sales tax rate of $0.54 per $25. What is the sales tax rate, as a percent, for item B that is subject to four times as much as the sales tax rate for item A?",
+            "template": "Scaling a given tax rate",
+            "difficulty": "Easy",
+            "options": {
+              "A": "216%",
+              "B": "86.4%",
+              "C": "8.64%",
+              "D": "2.16%",
+              "E": "0.135%"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 22,
+            "question_text": "In the last lap, cyclist P increases his speed from 10 mph to 25 mph, while cyclist Q increases his speed from 8 mph to 24 mph. By what percent is the percent increase in speed of cyclist Q greater than the percent increase in speed of cyclist P?",
+            "template": "Comparing percentage increases",
+            "difficulty": "Easy",
+            "options": {
+              "A": "33.33%",
+              "B": "50%",
+              "C": "66.67%",
+              "D": "75%",
+              "E": "100%"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 23,
+            "question_text": "In a certain year, Carrier X traveled 101,098 kilometers and consumed 9,890 liters of diesel fuel, while Carrier Y traveled 203,000 kilometers and consumed 24,896 liters of diesel fuel. Fuel mileage is defined as kilometers per liter of fuel. The mileage of Carrier X is approximately what percent greater or lesser than that of Carrier Y?",
+            "template": "Comparing fuel efficiency percentages",
+            "difficulty": "Medium",
+            "options": {
+              "A": "20%",
+              "B": "25%",
+              "C": "33.33%",
+              "D": "37.50%",
+              "E": "40%"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 24,
+            "question_text": "The list price of a bicycle is $456. The trader first decreased the price by 25 percent and then increased it by 25 percent. The final price of the bicycle is what percent of the list price?",
+            "template": "Sequential percentage changes",
+            "difficulty": "Easy",
+            "options": {
+              "A": "0%",
+              "B": "50%",
+              "C": "66.67%",
+              "D": "93.75%",
+              "E": "100%"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 25,
+            "question_text": "To prepare a certain color, a paint dealer mixes 3.4 liters of red color into a base that is 68 liters. The paint manufacturer recommends mixing 0.7 liters per 10 liters of base. By what percent should the dealer increase the quantity of the paint to match the recommendation?",
+            "template": "Percentage increase to meet recommended ratio",
+            "difficulty": "Medium",
+            "options": {
+              "A": "10%",
+              "B": "33.33%",
+              "C": "40%",
+              "D": "66.66%",
+              "E": "72%"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 26,
+            "question_text": "A Business Processing Outsourcing unit recruits 200 employees. Each is paid $7.50 per hour for the first 44 hours per week and 1 1/3 times that rate for hours in excess of 44. In a week where 30% work 30 hours, 40% work 44 hours, and the rest work 50 hours, what is the total remuneration for all employees?",
+            "template": "Weighted average calculation with overtime pay",
+            "difficulty": "Medium",
+            "options": {
+              "A": "$25,000",
+              "B": "$60,600",
+              "C": "$63,300",
+              "D": "$70,000",
+              "E": "$73,400"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 27,
+            "question_text": "A retail company earned $5 million as commission on the first $35 million in sales and then $11 million as commission on the next $121 million in sales. By what percent did the ratio of commissions to sales decrease from the first sales segment to the next?",
+            "template": "Comparative ratio percentage decrease",
+            "difficulty": "Medium",
+            "options": {
+              "A": "11.11%",
+              "B": "22.22%",
+              "C": "36.36%",
+              "D": "44.44%",
+              "E": "50%"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 28,
+            "question_text": "A sales representative earned 8% commission on sales up to $20,000 and x% commission on sales above $20,000. If his total commission on $24,000 of sales was $2,000, what is the value of x?",
+            "template": "Commission split with tiered percentages",
+            "difficulty": "Easy",
+            "options": {
+              "A": "4",
+              "B": "6",
+              "C": "8",
+              "D": "10",
+              "E": "12"
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "2.3 Profit & Loss",
+        "questions": [
+          {
+            "question_number": 49,
+            "question_text": "A shopkeeper could sell only (4/5)th of the stock at the rate of $3 per item. If 100 items were unsold, what was the total amount he received from the sale?",
+            "template": "Stock proportion and total sales calculation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "$240",
+              "B": "$1,200",
+              "C": "$1,250",
+              "D": "$1,300",
+              "E": "$1,500"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 50,
+            "question_text": "A trader bought 900 cartons of a certain ice cream brand at a cost of $20 per carton. If he sold (2/3)rd of the cartons for one and a quarter times their cost price and sold the remaining cartons at a loss of 20 percent of their cost price, what was the trader’s gross profit on the total sale?",
+            "template": "Multi-tier sales profit calculation",
+            "difficulty": "Medium",
+            "options": {
+              "A": "$1,800",
+              "B": "$2,400",
+              "C": "$2,700",
+              "D": "$3,000",
+              "E": "$3,200"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 51,
+            "question_text": "A dealer sells only two brands of bicycles, brand A and brand B. The selling price of a brand A bicycle is $150, which is 60 percent of the selling price of a brand B bicycle. If the dealer sells 100 pieces of bicycles, and (3/5)th of which are brand B, what is the dealer’s total sales, in dollars, from the sale of bicycles?",
+            "template": "Weighted sales calculation with mixed items",
+            "difficulty": "Easy",
+            "options": {
+              "A": "$15,000",
+              "B": "$16,000",
+              "C": "$18,000",
+              "D": "$21,000",
+              "E": "$22,000"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 52,
+            "question_text": "A trader bought a consignment at a purchase price of $800 and sold it for 20% less than the marked price. If the trader made a profit equivalent to 30% of the purchase price, what is the marked price of the consignment?",
+            "template": "Marked price determination from profit margin",
+            "difficulty": "Easy",
+            "options": {
+              "A": "$1,000",
+              "B": "$1,200",
+              "C": "$1,300",
+              "D": "$1,350",
+              "E": "$1,500"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 53,
+            "question_text": "A small textile company buys machines to stitch garments, costing a total of $10,000. The per-unit cost of each garment is $2.50 and each is sold for $4.50. How many units must be sold to achieve break-even?",
+            "template": "Break-even analysis using fixed cost and unit contribution",
+            "difficulty": "Easy",
+            "options": {
+              "A": "2,000",
+              "B": "3,500",
+              "C": "4,500",
+              "D": "5,000",
+              "E": "6,000"
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "2.4 Averages",
+        "questions": [
+          {
+            "question_number": 54,
+            "question_text": "The average of five numbers is 24. If four of the numbers are 20, 22, 26, and 30, what is the fifth number?",
+            "template": "Determining missing number from average",
+            "difficulty": "Easy",
+            "options": {
+              "A": "20",
+              "B": "22",
+              "C": "24",
+              "D": "26",
+              "E": "28"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 55,
+            "question_text": "In a class of 40 students, if the average score of the boys is 78 and that of the girls is 82, and the overall average is 80, how many boys are there?",
+            "template": "Weighted average calculation",
+            "difficulty": "Medium",
+            "options": {
+              "A": "15",
+              "B": "18",
+              "C": "20",
+              "D": "22",
+              "E": "25"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 56,
+            "question_text": "Four numbers have an average of 15. If three of the numbers are 12, 18, and 20, what percent of the total sum is contributed by the fourth number?",
+            "template": "Missing number percentage contribution",
+            "difficulty": "Easy",
+            "options": {
+              "A": "10%",
+              "B": "16.67%",
+              "C": "20%",
+              "D": "25%",
+              "E": "30%"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 57,
+            "question_text": "If the average of 7 numbers increases by 3 when one number is replaced by a larger number, by how much was the number increased?",
+            "template": "Average change impact",
+            "difficulty": "Easy",
+            "options": {
+              "A": "18",
+              "B": "19",
+              "C": "20",
+              "D": "21",
+              "E": "22"
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "2.5 Ratio & Proportion",
+        "questions": [
+          {
+            "question_number": 58,
+            "question_text": "If the ratio of A to B is 3:5 and the ratio of B to C is 7:9, what is the ratio of A to C?",
+            "template": "Combining two ratios",
+            "difficulty": "Medium",
+            "options": {
+              "A": "7:15",
+              "B": "3:9",
+              "C": "21:35",
+              "D": "5:9",
+              "E": "7:9"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 59,
+            "question_text": "In a bag, the ratio of red marbles to blue marbles is 2:3. After 15 red marbles are added, the ratio becomes 3:4. How many blue marbles were originally in the bag?",
+            "template": "Ratio adjustment after addition",
+            "difficulty": "Hard",
+            "options": {
+              "A": "150",
+              "B": "165",
+              "C": "180",
+              "D": "195",
+              "E": "210"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 60,
+            "question_text": "If the ratio of sugar to flour in a recipe is 1:4 and a baker uses 200 grams of flour, how many grams of sugar does he need?",
+            "template": "Direct proportion in recipe scaling",
+            "difficulty": "Easy",
+            "options": {
+              "A": "40 grams",
+              "B": "45 grams",
+              "C": "50 grams",
+              "D": "55 grams",
+              "E": "60 grams"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "2.6 Speed, Time & Distance",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "A car travels 150 miles at 50 mph and then 100 miles at 40 mph. What is the average speed for the entire trip?",
+            "template": "Average speed calculation over two segments",
+            "difficulty": "Medium",
+            "options": {
+              "A": "44 mph",
+              "B": "45 mph",
+              "C": "46 mph",
+              "D": "47 mph",
+              "E": "48 mph"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 2,
+            "question_text": "A train travels at a constant speed. If it covers 300 miles in 5 hours, how long will it take to travel 420 miles at the same speed?",
+            "template": "Proportional reasoning in speed and time",
+            "difficulty": "Easy",
+            "options": {
+              "A": "6 hours",
+              "B": "7 hours",
+              "C": "7.5 hours",
+              "D": "8 hours",
+              "E": "8.5 hours"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 3,
+            "question_text": "A cyclist travels for 2 hours at a speed that is 20% faster than his usual speed and for 3 hours at his usual speed. If his average speed for the entire trip is 24 mph, what is his usual speed?",
+            "template": "Weighted average with increased speed",
+            "difficulty": "Hard",
+            "options": {
+              "A": "20 mph",
+              "B": "21 mph",
+              "C": "22.22 mph",
+              "D": "24 mph",
+              "E": "25 mph"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "2.7 Time & Work",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "If 5 workers can complete a job in 12 days, how many days will it take 8 workers to complete the same job?",
+            "template": "Direct proportion in work rate",
+            "difficulty": "Easy",
+            "options": {
+              "A": "7.5 days",
+              "B": "8 days",
+              "C": "8.5 days",
+              "D": "9 days",
+              "E": "9.5 days"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 2,
+            "question_text": "If A and B working together can complete a job in 12 days, and A alone takes 18 days to complete it, how long will B alone take to complete the job?",
+            "template": "Combined work rates",
+            "difficulty": "Easy",
+            "options": {
+              "A": "24 days",
+              "B": "30 days",
+              "C": "32 days",
+              "D": "36 days",
+              "E": "40 days"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 3,
+            "question_text": "If two workers work alternately for equal periods (with A able to complete a task in 10 days and B in 15 days when working continuously), how many days will it take to complete the task when they work alternately starting with A?",
+            "template": "Alternate working schedule",
+            "difficulty": "Medium",
+            "options": {
+              "A": "10 days",
+              "B": "11 days",
+              "C": "12 days",
+              "D": "13 days",
+              "E": "14 days"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "2.8 Computational",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "Calculate the value of (√50 - √18)².",
+            "template": "Simplification of radical expressions",
+            "difficulty": "Medium",
+            "options": {
+              "A": "6",
+              "B": "8",
+              "C": "10",
+              "D": "12",
+              "E": "14"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 2,
+            "question_text": "If 3/4 of a number is 27, what is 5/6 of that number?",
+            "template": "Fractional proportional reasoning",
+            "difficulty": "Easy",
+            "options": {
+              "A": "30",
+              "B": "32",
+              "C": "34",
+              "D": "36",
+              "E": "38"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 3,
+            "question_text": "Evaluate the expression: (2³ × 3²) / (2 × 3) + (4² - 2³).",
+            "template": "Multi-step arithmetic computation",
+            "difficulty": "Medium",
+            "options": {
+              "A": "16",
+              "B": "18",
+              "C": "20",
+              "D": "22",
+              "E": "24"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "2.9 Interest",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "At an annual simple interest rate of 5%, what is the interest earned on a principal of $10,000 after 3 years?",
+            "template": "Simple interest calculation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "$1,000",
+              "B": "$1,250",
+              "C": "$1,500",
+              "D": "$1,750",
+              "E": "$2,000"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 2,
+            "question_text": "A sum of money amounts to $1,260 in 3 years and $1,404 in 4 years at the same rate of simple interest. What is the annual rate of interest (in percent)?",
+            "template": "Determining rate from simple interest amounts",
+            "difficulty": "Hard",
+            "options": {
+              "A": "10%",
+              "B": "12%",
+              "C": "14%",
+              "D": "17%",
+              "E": "20%"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 3,
+            "question_text": "At an annual compound interest rate, a principal doubles in 8 years. What is the approximate annual compound interest rate?",
+            "template": "Compound interest rate estimation using doubling time",
+            "difficulty": "Easy",
+            "options": {
+              "A": "8%",
+              "B": "9%",
+              "C": "10%",
+              "D": "11%",
+              "E": "12%"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      },
+      {
+        "section": "2.10 Functions",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "If f(x) = 3x − 4 and g(x) = x², what is the value of f(g(2))?",
+            "template": "Function composition",
+            "difficulty": "Easy",
+            "options": {
+              "A": "6",
+              "B": "8",
+              "C": "10",
+              "D": "12",
+              "E": "14"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 2,
+            "question_text": "If h(x) = 2x² − 5, find the positive value of x for which h(x) = 3.",
+            "template": "Solving quadratic function equation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "1",
+              "B": "2",
+              "C": "3",
+              "D": "4",
+              "E": "5"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 3,
+            "question_text": "Let f(x) = ax + b be a linear function. If f(2) = 5 and f(5) = 11, what is the value of f(7)?",
+            "template": "Determining a linear function from two points",
+            "difficulty": "Easy",
+            "options": {
+              "A": "13",
+              "B": "14",
+              "C": "15",
+              "D": "16",
+              "E": "17"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "2.11 Permutation & Combination & Probability",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "The word 'BANANA' contains 6 letters with repeating characters. How many distinct arrangements of the letters in 'BANANA' are possible?",
+            "template": "Permutation with repetition",
+            "difficulty": "Hard",
+            "options": {
+              "A": "30",
+              "B": "60",
+              "C": "90",
+              "D": "120",
+              "E": "180"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 2,
+            "question_text": "A committee of 4 is to be chosen from 10 candidates. In how many ways can the committee be selected?",
+            "template": "Combination selection",
+            "difficulty": "Easy",
+            "options": {
+              "A": "120",
+              "B": "210",
+              "C": "252",
+              "D": "360",
+              "E": "420"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 3,
+            "question_text": "A bag contains 5 red balls, 3 blue balls, and 2 green balls. If one ball is drawn at random, what is the probability that it is blue?",
+            "template": "Basic probability calculation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "1/2",
+              "B": "3/10",
+              "C": "1/3",
+              "D": "2/5",
+              "E": "3/8"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 4,
+            "question_text": "If two cards are drawn from a standard 52-card deck without replacement, what is the probability that both cards are aces?",
+            "template": "Dependent probability without replacement",
+            "difficulty": "Medium",
+            "options": {
+              "A": "1/221",
+              "B": "1/208",
+              "C": "1/286",
+              "D": "1/260",
+              "E": "1/312"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      },
+      {
+        "section": "2.12 Sets",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "If the universal set U has 100 elements, and two subsets A and B have 60 and 45 elements respectively, with their intersection containing 25 elements, how many elements are in the union A ∪ B?",
+            "template": "Inclusion-Exclusion Principle",
+            "difficulty": "Easy",
+            "options": {
+              "A": "70",
+              "B": "75",
+              "C": "80",
+              "D": "85",
+              "E": "90"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 2,
+            "question_text": "If |A| = 2|B|, |A ∩ B| = 15, and |A ∪ B| = 45, what is the number of elements in set A?",
+            "template": "Using inclusion-exclusion with ratio constraints",
+            "difficulty": "Medium",
+            "options": {
+              "A": "30",
+              "B": "35",
+              "C": "40",
+              "D": "45",
+              "E": "50"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 3,
+            "question_text": "In a survey of 100 people, 70 like coffee, 55 like tea, and 30 like both. How many people like neither coffee nor tea?",
+            "template": "Complement of the union of sets",
+            "difficulty": "Easy",
+            "options": {
+              "A": "5",
+              "B": "10",
+              "C": "15",
+              "D": "20",
+              "E": "25"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      },
+      {
+        "section": "2.13 Statistics & Data Interpretation",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "The average of 10 numbers is 35. If one number is removed, the new average becomes 33. What is the value of the removed number?",
+            "template": "Missing number from average recalculation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "45",
+              "B": "50",
+              "C": "53",
+              "D": "55",
+              "E": "60"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 2,
+            "question_text": "In a data set, the number 10 appears 2 times, 20 appears 4 times, 30 appears 3 times, and 40 appears 1 time. What is the median of the data set?",
+            "template": "Determining median from frequency distribution",
+            "difficulty": "Easy",
+            "options": {
+              "A": "10",
+              "B": "15",
+              "C": "20",
+              "D": "25",
+              "E": "30"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 3,
+            "question_text": "A sample of 5 test scores has a standard deviation of 4. If each score is increased by 5 points, what is the new standard deviation?",
+            "template": "Effect of translation on standard deviation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "0",
+              "B": "3",
+              "C": "4",
+              "D": "5",
+              "E": "9"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "2.14 Linear Equations",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "If 3x + 2 = 17, what is the value of x?",
+            "template": "Simple linear equation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "3",
+              "B": "4",
+              "C": "5",
+              "D": "6",
+              "E": "7"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 2,
+            "question_text": "Solve for x: 2(x - 3) + 3(2x + 1) = 4x + 7.",
+            "template": "Multi-step linear equation",
+            "difficulty": "Medium",
+            "options": {
+              "A": "5/2",
+              "B": "3",
+              "C": "7/2",
+              "D": "4",
+              "E": "9/2"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 3,
+            "question_text": "If 4x + 5 = 3(x + 7), what is the value of x?",
+            "template": "Linear equation with distribution",
+            "difficulty": "Easy",
+            "options": {
+              "A": "14",
+              "B": "15",
+              "C": "16",
+              "D": "17",
+              "E": "18"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "2.15 Quadratic Equations & Polynomials",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "Solve the quadratic equation: x² - 5x + 6 = 0.",
+            "template": "Quadratic equation factorization",
+            "difficulty": "Easy",
+            "options": {
+              "A": "1 and 6",
+              "B": "2 and 3",
+              "C": "3 and 2",
+              "D": "2 and 4",
+              "E": "1 and 5"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 2,
+            "question_text": "If f(x) = x² + bx + c has a repeated (double) root at x = 4, what is the value of c?",
+            "template": "Quadratic with repeated root",
+            "difficulty": "Easy",
+            "options": {
+              "A": "8",
+              "B": "12",
+              "C": "14",
+              "D": "16",
+              "E": "18"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 3,
+            "question_text": "For the polynomial P(x) = x² + kx + 9 to have real roots, what condition must k satisfy?",
+            "template": "Discriminant condition for real roots",
+            "difficulty": "Medium",
+            "options": {
+              "A": "k ≤ -6 or k ≥ 6",
+              "B": "−6 < k < 6",
+              "C": "k ≥ 6",
+              "D": "k ≤ 6",
+              "E": "None of the above"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      },
+      {
+        "section": "2.16 Inequalities",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "Solve for x: 3x − 7 < 2x + 5.",
+            "template": "Linear inequality solution",
+            "difficulty": "Easy",
+            "options": {
+              "A": "x < 10",
+              "B": "x < 11",
+              "C": "x < 12",
+              "D": "x < 13",
+              "E": "x < 14"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 2,
+            "question_text": "For what values of x does the inequality 2(x − 3) ≥ 4x − 8 hold true?",
+            "template": "Linear inequality manipulation",
+            "difficulty": "Medium",
+            "options": {
+              "A": "x ≤ 0",
+              "B": "x ≤ 1",
+              "C": "x ≥ 1",
+              "D": "x ≥ 2",
+              "E": "x = 1"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 3,
+            "question_text": "If (x − 2)/(x + 3) > 0, which of the following intervals describes the solution set for x?",
+            "template": "Rational inequality solution",
+            "difficulty": "Hard",
+            "options": {
+              "A": "x < −3 or x > 2",
+              "B": "−3 < x < 2",
+              "C": "x > 2",
+              "D": "x < −3",
+              "E": "All x except x = −3 and 2"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      },
+      {
+        "section": "2.17 Co-ordinate geometry",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "Find the distance between the points (3, -2) and (-1, 4).",
+            "template": "Distance formula application",
+            "difficulty": "Easy",
+            "options": {
+              "A": "2√10",
+              "B": "2√11",
+              "C": "2√12",
+              "D": "2√13",
+              "E": "2√14"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the midpoint of the segment joining the points (2, -3) and (8, 5)?",
+            "template": "Midpoint formula application",
+            "difficulty": "Easy",
+            "options": {
+              "A": "(5, 1)",
+              "B": "(4, 1)",
+              "C": "(5, 2)",
+              "D": "(5, 0)",
+              "E": "(4, 2)"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 3,
+            "question_text": "What is the slope of the line perpendicular to the line passing through the points (1, 2) and (4, 8)?",
+            "template": "Slope and perpendicularity",
+            "difficulty": "Medium",
+            "options": {
+              "A": "1/2",
+              "B": "-1/2",
+              "C": "2",
+              "D": "-2",
+              "E": "0"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      },
+      {
+        "section": "3.1 Numbers",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the value of x?\nStatement (1): 2x = 10.\nStatement (2): x + 3 = 8.",
+            "template": "Data Sufficiency – Determining a unique value for x using independent linear equations",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the value of y?\nStatement (1): y² = 49.\nStatement (2): y > 0.",
+            "template": "Data Sufficiency – Resolving ambiguity from a quadratic equation with a sign constraint",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 3,
+            "question_text": "What is the value of z?\nStatement (1): z is an even integer such that 2 < z < 8.\nStatement (2): z is divisible by 3.",
+            "template": "Data Sufficiency – Using a range condition with a divisibility constraint to determine a unique number",
+            "difficulty": "Medium",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "3.2 Percents",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the percent markup on a product?\nStatement (1): A product is sold for $120 after a markup of 20% on its cost price.\nStatement (2): The selling price exceeds the cost price by $20, and the cost price is $100.",
+            "template": "Data Sufficiency – Determining percent markup from cost and selling price",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the percent discount on an item?\nStatement (1): An item is sold for $85 after a discount of 15% on its list price.\nStatement (2): The discount amount is $15 and the list price is $100.",
+            "template": "Data Sufficiency – Determining percent discount from selling price and list price",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 3,
+            "question_text": "What is the percent increase when a quantity increases from 200 to 250?\nStatement (1): The quantity increases by 50 and the original quantity is 200.\nStatement (2): 50 is 25% of the original quantity.",
+            "template": "Data Sufficiency – Determining percent increase from absolute increase and original quantity",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "3.3 Profit & Loss",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the profit percentage on an item?\nStatement (1): The selling price of the item is 25% greater than its cost price.\nStatement (2): The profit on the item is $50.",
+            "template": "Data Sufficiency – Determining profit percentage using a markup relation and a profit amount",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the profit percentage on an item?\nStatement (1): The item is sold for $240 and its cost price is $200.\nStatement (2): The profit is $40, which is 20% of the cost price.",
+            "template": "Data Sufficiency – Determining profit percentage from given selling and cost prices",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "3.4 Averages (including weighted averages)",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the average of x, y, and z?\nStatement (1): x + y + z = 30.\nStatement (2): x = 2, y = 8, and z = 20.",
+            "template": "Data Sufficiency – Determining average from sum versus individual values",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the overall average score of two groups?\nStatement (1): Group A consists of 10 students with an average score of 80, and Group B consists of 20 students with an average score of 70.\nStatement (2): The overall average score of all students is 73.",
+            "template": "Data Sufficiency – Calculating weighted average from group averages and sizes",
+            "difficulty": "Medium",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "A"
+          }
+        ]
+      },
+      {
+        "section": "3.5 Ratio & Proportion",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the ratio of x to y?\nStatement (1): x/y = 3/4.\nStatement (2): x = 9 and y = 12.",
+            "template": "Data Sufficiency – Determining ratio from a given proportion versus explicit values",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the value of a?\nGiven that the ratio of a to b is 5:7.\nStatement (1): a/b = 5/7.\nStatement (2): b = 21.",
+            "template": "Data Sufficiency – Determining a value from a known ratio and a given value",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "3.6 Mixtures",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the percentage concentration of solute in solution A?\nSolution A is an unknown concentration solution that is mixed with a 20% solution B. In one experiment, 3 liters of solution A are mixed with x liters of solution B, and the resulting mixture has a solute concentration of 30%. In a second experiment, 2 liters of solution A are mixed with the same x liters of solution B, and the resulting mixture has a solute concentration of 28%.",
+            "template": "Data Sufficiency – Determining an unknown concentration using two mixture experiments with an unknown volume of the second solution",
+            "difficulty": "Medium",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "3.7 Speed, Time, & Distance",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the speed of a train?\nStatement (1): The train travels 120 miles in 2 hours.\nStatement (2): The train's speed is 10 mph greater than that of a car which travels 110 miles in 2 hours.",
+            "template": "Data Sufficiency – Determining speed from distance/time and relative speed information",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 2,
+            "question_text": "How long does it take for a train to travel 150 miles?\nStatement (1): The train travels at 50 mph.\nStatement (2): The train travels 25% faster than a car that takes 5 hours to travel 150 miles.",
+            "template": "Data Sufficiency – Determining travel time using speed information",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "3.8 Time & Work",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the time (in hours) required for worker A to complete a job alone?\nStatement (1): Worker A and worker B together can complete the job in 6 hours.\nStatement (2): Worker B can complete the job alone in 10 hours.",
+            "template": "Data Sufficiency – Determining an individual’s work rate from combined work information",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the time (in hours) required for worker C to complete a job alone?\nStatement (1): Worker C is 50% as efficient as worker D.\nStatement (2): Worker C and worker D working together complete the job in 12 hours.",
+            "template": "Data Sufficiency – Determining an individual’s work rate using efficiency ratio and combined work time",
+            "difficulty": "Medium",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "3.9 Computational",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the value of N = (a² + 2ab + b²)/(a + b), where a + b ≠ 0?\nStatement (1): a + b = 10.\nStatement (2): a - b = 2.",
+            "template": "Data Sufficiency – Simplifying an algebraic expression by recognizing a perfect square",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the value of Q = (2³ × 3²) / (6²)?\nStatement (1): 2³ = 8 and 6² = 36.\nStatement (2): 3² = 9.",
+            "template": "Data Sufficiency – Determining a computed value from exponentiation expressions",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "3.10 Interest",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the annual simple interest rate (in percent)?\nStatement (1): A principal of $500 amounts to $600 in 2 years at simple interest.\nStatement (2): The interest earned in 2 years is $100 and the principal is $500.",
+            "template": "Data Sufficiency – Determining the annual interest rate from simple interest information",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "3.11 Functions",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the value of f(4)?\nStatement (1): f(x) = 2x + 3.\nStatement (2): f(4) = f(2) + 4.",
+            "template": "Data Sufficiency – Evaluating a function value using an explicit function form and a functional relation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the value of k if f(x) = kx + 2 and f(3) = 11?\nStatement (1): f(3) = 3k + 2 = 11.\nStatement (2): f(1) = k + 2 = 5.",
+            "template": "Data Sufficiency – Determining a constant in a linear function from given function values",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "3.12 Permutation & Combination",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the number of ways to choose 3 members from a group of n individuals?\nStatement (1): n = 8.\nStatement (2): The number of ways to choose 3 members is 56.",
+            "template": "Data Sufficiency – Determining combinations from given group size or computed value",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the number of distinct arrangements of the letters in the word 'SUCCESS'?\nStatement (1): The word 'SUCCESS' has 7 letters with the letter S repeated 3 times and the letter C repeated 2 times.\nStatement (2): The number of distinct arrangements is given by 7!/(3!*2!).",
+            "template": "Data Sufficiency – Determining arrangements when letters repeat",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          }
+        ]
+      },
+      {
+        "section": "3.13 Sets",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the number of elements in set A?\nStatement (1): Set A has 5 more elements than set B, and the union of A and B contains 50 elements with their intersection containing 15 elements.\nStatement (2): The number of elements in set B is 30.",
+            "template": "Data Sufficiency – Determining the size of one set using union and intersection information",
+            "difficulty": "Medium",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the total number of elements in A ∪ B?\nStatement (1): Set A has 40 elements and set B has 35 elements.\nStatement (2): The intersection A ∩ B has 15 elements.",
+            "template": "Data Sufficiency – Calculating the union of two sets from their individual sizes and the size of their intersection",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "section": "3.14 Statistics & Data Interpretation",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the median of a data set?\nStatement (1): The data set consists of 9 numbers arranged in increasing order as follows: {3, 5, 7, 9, 11, 13, 15, 17, 19}.\nStatement (2): The first quartile is 7 and the third quartile is 15.",
+            "template": "Data Sufficiency – Determining the median using complete ordered data or quartile information",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the standard deviation of a data set?\nStatement (1): The variance of the data set is 25.\nStatement (2): The mean of the data set is 10.",
+            "template": "Data Sufficiency – Determining standard deviation from the variance",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "A"
+          }
+        ]
+      },
+      {
+        "section": "3.15 Linear Equations",
+        "questions": [
+          {
+            "question_number": 1,
+            "question_text": "What is the value of x?\nStatement (1): 3x + 2 = 17.\nStatement (2): x - 4 = 1.",
+            "template": "Data Sufficiency – Solving a single linear equation",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 2,
+            "question_text": "What is the value of y?\nStatement (1): 2y - 3 = 7.\nStatement (2): y + 2 = 7.",
+            "template": "Data Sufficiency – Solving a simple linear equation presented in different forms",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question_number": 3,
+            "question_text": "What is the value of z?\nStatement (1): 2z + 3 = 11.\nStatement (2): z - 1 = 3.",
+            "template": "Data Sufficiency – Determining a variable from two independent linear equations",
+            "difficulty": "Easy",
+            "options": {
+              "A": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient.",
+              "B": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient.",
+              "C": "Statements (1) and (2) together are sufficient, but neither statement alone is sufficient.",
+              "D": "Each statement alone is sufficient.",
+              "E": "Statements (1) and (2) together are not sufficient."
+            },
+            "correct_answer": "D"
+          }
+        ]
+      }
+    ]
+  }
+  
