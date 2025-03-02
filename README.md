@@ -127,8 +127,6 @@ The application provides:
 - **Developing**: 60-80% overall
 - **Foundational**: <60% overall
 
-## License
-MIT License
 
 ## Acknowledgments
 - This application uses the Mistral-7B model from HuggingFace for question generation
