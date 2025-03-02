@@ -3,6 +3,9 @@
 ## Overview
 This Streamlit application provides an adaptive testing experience for GMAT quantitative practice. The app dynamically adjusts question difficulty based on user performance, simulating the adaptive nature of the actual GMAT exam.
 
+## Try it now!!
+[Click here](https://gmattest.streamlit.app/)
+
 ## Features
 - **Question Generation**: Uses Mistral-7B to generate unique GMAT-style quantitative questions
 - **Adaptive Testing**: Adjusts question difficulty based on performance
