@@ -238,7 +238,7 @@ def main():
             st.session_state.selected_questions.append(initial_question)
             st.session_state.difficulty_history.append(initial_difficulty)
             st.session_state.question_bank[initial_difficulty].pop(0)
-            st.experimental_rerun()
+            st.rerun()
 
     if st.session_state.test_started and st.session_state.current_question_number <= 10:
         current_q = st.session_state.selected_questions[-1]
@@ -292,12 +292,12 @@ def main():
                         st.session_state.current_question_number = 10
                 st.session_state.current_question_number += 1
                 time.sleep(1)
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.session_state.current_question_number += 1
                 st.write("Test complete! View your results below.")
                 time.sleep(1)
-                st.experimental_rerun()
+                st.rerun()
 
     if st.session_state.test_started and st.session_state.current_question_number > 10:
         st.header("Test Results")
@@ -391,7 +391,7 @@ def main():
             st.session_state.difficulty_history = []
             st.session_state.difficulty = "medium"
             st.session_state.difficulty_streak = 0
-            st.experimental_rerun()
+            st.rerun()
 
 if __name__ == "__main__":
     main()
