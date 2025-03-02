@@ -1,62 +1,243 @@
+# Adaptive GMAT Quantitative Test
+
+## Overview
+This Streamlit application provides an adaptive testing experience for GMAT quantitative practice. The app dynamically adjusts question difficulty based on user performance, simulating the adaptive nature of the actual GMAT exam.
+
+## Features
+- **Question Generation**: Uses Mistral-7B to generate unique GMAT-style quantitative questions
+- **Adaptive Testing**: Adjusts question difficulty based on performance
+- **Three Difficulty Levels**: Easy, Medium, and Hard questions
+- **Performance Analytics**: Detailed performance statistics a# Adaptive GMAT Quantitative Test
+
+## Overview
+This Streamlit application provides an adaptive testing experience for GMAT quantitative practice. The app dynamically adjusts question difficulty based on user performance, simulating the adaptive nature of the actual GMAT exam.
+
+## Features
+- **Question Generation**: Uses Mistral-7B to generate unique GMAT-style quantitative questions
+- **Adaptive Testing**: Adjusts question difficulty based on performance
+- **Three Difficulty Levels**: Easy, Medium, and Hard questions
+- **Performance Analytics**: Detailed performance statistics and visualization
+- **Intelligent Scoring**: Weighted scoring system that accounts for question difficulty
+
+## Requirements
+- Python 3.7+
+- Streamlit
+- HuggingFace API token (stored in `.env` file)
+- Required Python packages:
+  - streamlit
+  - huggingface_hub
+  - pandas
+  - matplotlib
+  - numpy
+  - python-dotenv
+
+## Setup
+1. Clone this repository
+2. Install required packages: `pip install -r requirements.txt`
+3. Create a `.env` file in the project root with your HuggingFace API token:
+   ```
+   HF_TOKEN=your_huggingface_token_here
+   ```
+4. Run the application: `streamlit run app.py`
+
+## How It Works
+
+### Question Bank Generation
+- Application generates 10 questions for each difficulty level (easy, medium, hard)
+- Uses pre-defined prompt templates for each difficulty
+- Formats responses as JSON with question text, answer choices, and correct answer
+
+### Adaptive Algorithm
+- **If user answers correctly**:
+  - Easy → Medium
+  - Medium → Hard
+  - Hard → Hard (remains unchanged)
+- **If user answers incorrectly**:
+  - Easy → Easy (remains unchanged)
+  - Medium → Easy
+  - Hard → Medium
+
+### Scoring System
+- Easy questions: 1 point
+- Medium questions: 2 points
+- Hard questions: 3 points
+- Both raw scores and weighted scores (giving more weight to later questions) are calculated
+
+## User Flow
+1. Generate question bank
+2. Select starting difficulty
+3. Answer 10 questions with adaptive difficulty adjustment
+4. Receive detailed performance analysis and skill assessment
+
+## Flow Diagram
+```mermaid
 flowchart TD
-    subgraph Frontend["Frontend Interface"]
-        UI[/"User Interface\nReact Components"/]
-        StartBtn["Start Test Button"]
-        QuestionDisplay["Question Display"]
-        AnswerInput["Answer Input"]
-        Progress["Progress Tracker"]
-        Results["Results Display"]
-    end
+    A[Start Application] --> B{Question Bank Generated?}
+    B -->|No| C[Generate Question Bank]
+    C --> D[30 Questions Created\n10 per Difficulty Level]
+    B -->|Yes| E{Test Started?}
+    E -->|No| F[Select Initial Difficulty]
+    F --> G[Start Test]
+    G --> H[Load First Question]
+    E -->|Yes| I[Display Current Question]
+    I --> J[User Submits Answer]
+    J --> K{Is Answer Correct?}
+    K -->|Yes| L[Update Difficulty\nBased on Correct Answer]
+    K -->|No| M[Update Difficulty\nBased on Wrong Answer]
+    L --> N{More Questions?}
+    M --> N
+    N -->|Yes| O[Load Next Question]
+    O --> I
+    N -->|No| P[Display Test Results]
+    P --> Q[Show Performance Analytics]
+    Q --> R[Display Skill Assessment]
+    R --> S[Option to Retake Test]
+    S -->|Retake| E
+```
 
-    subgraph TestEngine["Test Engine"]
-        QM["Question Manager"]
-        DifficultyAdapter["Difficulty Adapter"]
-        ScoreCalculator["Score Calculator"]
-        SessionManager["Session Manager"]
-    end
+## Difficulty Adjustment Logic
+```mermaid
+flowchart TD
+    A{Answer Correct?} -->|Yes| B{Current Difficulty?}
+    A -->|No| C{Current Difficulty?}
+    B -->|Easy| D[New Difficulty: Medium]
+    B -->|Medium| E[New Difficulty: Hard]
+    B -->|Hard| F[New Difficulty: Hard]
+    C -->|Easy| G[New Difficulty: Easy]
+    C -->|Medium| H[New Difficulty: Easy]
+    C -->|Hard| I[New Difficulty: Medium]
+```
 
-    subgraph AIServices["AI Services"]
-        QG["Question Generator\nAI Model"]
-        DE["Difficulty Evaluator\nAI Model"]
-    end
+## Performance Analysis
+The application provides:
+- Raw score and percentage
+- Weighted score that emphasizes later questions
+- Difficulty progression chart
+- Detailed question-by-question breakdown
+- Performance statistics by difficulty level
+- Overall skill assessment and recommendations
 
-    subgraph DataStore["Data Management"]
-        TestSession["Session Storage"]
-        QuestionBank["Question Bank"]
-        UserProgress["Progress Tracker"]
-        ScoreHistory["Score History"]
-    end
+## Skill Assessment Categories
+- **Advanced**: 80%+ overall with 70%+ on hard questions
+- **Proficient**: 80%+ overall with 70%+ on medium questions
+- **Intermediate**: 80%+ overall but <70% on harder questions
+- **Developing**: 60-80% overall
+- **Foundational**: <60% overall
 
-    %% Frontend Interactions
-    StartBtn --> SessionManager
-    SessionManager --> QM
-    QM --> QuestionDisplay
-    AnswerInput --> SessionManager
-    SessionManager --> Progress
-    SessionManager --> Results
+## License
+MIT License
 
-    %% Test Engine Logic
-    QM <--> QG
-    QM <--> QuestionBank
-    SessionManager <--> DifficultyAdapter
-    DifficultyAdapter <--> DE
-    SessionManager <--> ScoreCalculator
-    
-    %% Data Flow
-    SessionManager <--> TestSession
-    SessionManager <--> UserProgress
-    ScoreCalculator --> ScoreHistory
+## Acknowledgments
+- This application uses the Mistral-7B model from HuggingFace for question generation
+- Built with Streamlit for interactive web interfacend visualization
+- **Intelligent Scoring**: Weighted scoring system that accounts for question difficulty
 
-    %% State Updates
-    TestSession --> Results
-    UserProgress --> Progress
+## Requirements
+- Python 3.7+
+- Streamlit
+- HuggingFace API token (stored in `.env` file)
+- Required Python packages:
+  - streamlit
+  - huggingface_hub
+  - pandas
+  - matplotlib
+  - numpy
+  - python-dotenv
 
-    classDef frontend fill:#d4f1f4,stroke:#333,stroke-width:1px
-    classDef engine fill:#ffed99,stroke:#333,stroke-width:1px
-    classDef ai fill:#e8c2ca,stroke:#333,stroke-width:1px
-    classDef data fill:#b1e693,stroke:#333,stroke-width:1px
+## Setup
+1. Clone this repository
+2. Install required packages: `pip install -r requirements.txt`
+3. Create a `.env` file in the project root with your HuggingFace API token:
+   ```
+   HF_TOKEN=your_huggingface_token_here
+   ```
+4. Run the application: `streamlit run app2.py`
 
-    class UI,StartBtn,QuestionDisplay,AnswerInput,Progress,Results frontend
-    class QM,DifficultyAdapter,ScoreCalculator,SessionManager engine
-    class QG,DE ai
-    class TestSession,QuestionBank,UserProgress,ScoreHistory data
+## How It Works
+
+### Question Bank Generation
+- Application generates 10 questions for each difficulty level (easy, medium, hard)
+- Uses pre-defined prompt templates for each difficulty
+- Formats responses as JSON with question text, answer choices, and correct answer
+
+### Adaptive Algorithm
+- **If user answers correctly**:
+  - Easy → Medium
+  - Medium → Hard
+  - Hard → Hard (remains unchanged)
+- **If user answers incorrectly**:
+  - Easy → Easy (remains unchanged)
+  - Medium → Easy
+  - Hard → Medium
+
+### Scoring System
+- Easy questions: 1 point
+- Medium questions: 2 points
+- Hard questions: 3 points
+- Both raw scores and weighted scores (giving more weight to later questions) are calculated
+
+## User Flow
+1. Generate question bank
+2. Select starting difficulty
+3. Answer 10 questions with adaptive difficulty adjustment
+4. Receive detailed performance analysis and skill assessment
+
+## Flow Diagram
+```mermaid
+flowchart TD
+    A[Start Application] --> B{Question Bank Generated?}
+    B -->|No| C[Generate Question Bank]
+    C --> D[30 Questions Created\n10 per Difficulty Level]
+    B -->|Yes| E{Test Started?}
+    E -->|No| F[Select Initial Difficulty]
+    F --> G[Start Test]
+    G --> H[Load First Question]
+    E -->|Yes| I[Display Current Question]
+    I --> J[User Submits Answer]
+    J --> K{Is Answer Correct?}
+    K -->|Yes| L[Update Difficulty\nBased on Correct Answer]
+    K -->|No| M[Update Difficulty\nBased on Wrong Answer]
+    L --> N{More Questions?}
+    M --> N
+    N -->|Yes| O[Load Next Question]
+    O --> I
+    N -->|No| P[Display Test Results]
+    P --> Q[Show Performance Analytics]
+    Q --> R[Display Skill Assessment]
+    R --> S[Option to Retake Test]
+    S -->|Retake| E
+```
+
+## Difficulty Adjustment Logic
+```mermaid
+flowchart TD
+    A{Answer Correct?} -->|Yes| B{Current Difficulty?}
+    A -->|No| C{Current Difficulty?}
+    B -->|Easy| D[New Difficulty: Medium]
+    B -->|Medium| E[New Difficulty: Hard]
+    B -->|Hard| F[New Difficulty: Hard]
+    C -->|Easy| G[New Difficulty: Easy]
+    C -->|Medium| H[New Difficulty: Easy]
+    C -->|Hard| I[New Difficulty: Medium]
+```
+
+## Performance Analysis
+The application provides:
+- Raw score and percentage
+- Weighted score that emphasizes later questions
+- Difficulty progression chart
+- Detailed question-by-question breakdown
+- Performance statistics by difficulty level
+- Overall skill assessment and recommendations
+
+## Skill Assessment Categories
+- **Advanced**: 80%+ overall with 70%+ on hard questions
+- **Proficient**: 80%+ overall with 70%+ on medium questions
+- **Intermediate**: 80%+ overall but <70% on harder questions
+- **Developing**: 60-80% overall
+- **Foundational**: <60% overall
+
+
+## Acknowledgments
+- This application uses the Mistral-7B model from HuggingFace for question generation
+- Built with Streamlit for interactive web interface
