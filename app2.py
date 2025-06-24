@@ -1,5 +1,5 @@
 import streamlit as st
-from huggingface_hub import InferenceClient
+from openai import OpenAI
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -13,12 +13,9 @@ import re
 load_dotenv()
 
 # Initialize Hugging Face Inference Client with API token
-HF_TOKEN = os.getenv("HF_TOKEN")  # Load token from environment variable
-if not HF_TOKEN:
-    st.error("Please set the HF_TOKEN environment variable with your Hugging Face API token.")
-    st.stop()
+GEM_API = os.getenv("GEM_API")  # Load token from environment variable
 
-client = InferenceClient(token=HF_TOKEN)
+client = OpenAI(api_key= GEM_API,base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
 
 # Define unique prompt templates for each difficulty level
 
@@ -63,7 +60,6 @@ hard_prompts = [
 
 # Updated function to generate a question using a custom prompt
 def generate_question(custom_prompt, max_attempts=3):
-    model = "mistralai/Mistral-7B-Instruct-v0.3"
     # Append explicit structured instructions and an example to the custom prompt
     structured_instruction = (
         "\n\nIMPORTANT: Your entire output MUST be a valid JSON object with exactly these keys: "
@@ -71,12 +67,15 @@ def generate_question(custom_prompt, max_attempts=3):
         "The 'choices' value must be an array of 5 strings, each starting with 'A.', 'B.', 'C.', 'D.', and 'E.' respectively. "
         "Example: {\"question\": \"What is 2+2?\", \"choices\": [\"A. 3\", \"B. 4\", \"C. 5\", \"D. 6\", \"E. 7\"], \"correct_answer\": \"B\"}"
     )
-    final_prompt = custom_prompt + structured_instruction
-
     attempts = 0
     while attempts < max_attempts:
         try:
-            response = client.text_generation(final_prompt, model=model)
+            response = client.chat.completions.create(
+                model="gemini-2.5-flash",
+                messages=[{"role": "system","content": structured_instruction},
+                          {"role": "user","content": custom_prompt}
+                         ]
+)
             try:
                 question_data = json.loads(response)
             except json.JSONDecodeError:
